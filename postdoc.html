@@ -19,7 +19,7 @@
         <script>
             document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
         </script>
-<!--
+        <!--
         <script>
             var link = document.createElement( 'link' );
             link.rel = 'stylesheet';
@@ -27,7 +27,7 @@
             link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
             document.getElementsByTagName( 'head' )[0].appendChild( link );
         </script>
--->
+        -->
         <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
@@ -817,7 +817,8 @@
                 viewDistance: 3,
 
                 math: {
-                    mathjax: 'plugin/math/mathjax/MathJax.js',        //http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+//                    mathjax: 'plugin/math/mathjax/MathJax.js',
+                    mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
                     config: 'TeX-AMS_HTML-full'
                     // See http://docs.mathjax.org/en/latest/config-files.html
                 },
