@@ -1,10 +1,10 @@
 /*
-@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
-@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold|Droid+Serif:regular,italic,bold,bolditalic&subset=latin);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:regular,bold|Droid+Serif:regular,italic,bold,bolditalic&subset=latin);
 */
 
 /*
@@ -26,10 +26,10 @@ shadow WRONG: img (frame)
 
 html.blur .backgrounds{
     -webkit-filter: blur(14px);
-    -moz-filter: blur(14px);
-    -ms-filter: blur(14px);
-    -o-filter: blur(14px);
-    -filter: blur(14px);
+       -moz-filter: blur(14px);
+        -ms-filter: blur(14px);
+         -o-filter: blur(14px);
+           -filter: blur(14px);
 }
 
 html.background-centre div.slide-background.present {
@@ -57,18 +57,18 @@ li:before {
     text-align: center;
     position: relative;
     -webkit-box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
-    -moz-box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
-    -ms-box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
-    -o-box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
-    box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
+       -moz-box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
+        -ms-box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
+         -o-box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
+            box-shadow: inset 0px 0px 8px rgba(0,0,0,1.0), 0px 0px 8px 0px rgba(0,0,0,1.0);
 }
 
 .shadow {
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
-    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
-    -ms-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
-    -o-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
-    box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
+       -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
+        -ms-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
+         -o-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
+            box-shadow: 0px 0px 8px 0px rgba(0,0,0,1.0);
 }
 
 .reveal .controls div.navigate-left,
@@ -134,20 +134,20 @@ b.title {
     margin-bottom: 40px;
     border: 0;
     height: 2px;
-    background-image: -webkit-linear-gradient(left, rgba(127,127,127,0.1), rgba(255,255,255,1.0), rgba(255,255,255,0.1));
-    background-image:    -moz-linear-gradient(left, rgba(255,255,255,0.1), rgba(255,255,255,1.0), rgba(255,255,255,0.1));
-    background-image:     -ms-linear-gradient(left, rgba(255,255,255,0.1), rgba(255,255,255,1.0), rgba(255,255,255,0.1));
-    background-image:      -o-linear-gradient(left, rgba(255,255,255,0.1), rgba(255,255,255,1.0), rgba(255,255,255,0.1));
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0.0), rgba(255,255,255,1.0), rgba(255,255,255,0.0));
+    background-image:    -moz-linear-gradient(left, rgba(255,255,255,0.0), rgba(255,255,255,1.0), rgba(255,255,255,0.0));
+    background-image:     -ms-linear-gradient(left, rgba(255,255,255,0.0), rgba(255,255,255,1.0), rgba(255,255,255,0.0));
+    background-image:      -o-linear-gradient(left, rgba(255,255,255,0.0), rgba(255,255,255,1.0), rgba(255,255,255,0.0));
 }
 
 .box {
     text-align: center;
     position: relative;
     -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
+       -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+         -o-border-radius: 4px;
+            border-radius: 4px;
 }
 
 .video-centre {
@@ -170,10 +170,10 @@ p.speech {
     background-color: #ffffdd;
     border: 4px solid #ffffdd;
     -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-    border-radius: 12px;
+       -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+         -o-border-radius: 12px;
+            border-radius: 12px;
 }
 
 p.speech.bottom:before {
@@ -356,9 +356,9 @@ Instructions:
 /*
 .blurred {
      -webkit-filter: blur(5px);
-     -moz-filter: blur(50px);
-     -o-filter: blur(5px);
-     -ms-filter: blur(5px);
-     filter: blur(5px);
+        -moz-filter: blur(5px);
+          -o-filter: blur(5px);
+         -ms-filter: blur(5px);
+             filter: blur(5px);
 }
 */
