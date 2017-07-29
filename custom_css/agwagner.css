@@ -7,22 +7,35 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:regular,bold|Droid+Serif:regular,italic,bold,bolditalic&subset=latin);
 */
 
-/*
-shadow OK:    speech, fancy-line video-centre box
-shadow WRONG: img (frame)
-*/
 
 .reveal {
     /*font-family:'Ubuntu',cursive;*/
     font-family: "Lato", sans-serif;
     letter-spacing: 0.0em;
     color: #ffffff;
+}
+
+@supports (-webkit-appearance:none) {.reveal {
     text-shadow:
     -1px -1px 4px #000000,
      1px -1px 4px #000000,
     -1px  1px 4px #000000,
      1px  1px 4px #000000;
-}
+    }}
+_:-moz-tree-row(hover), .reveal {
+    text-shadow:
+    -1px -1px 2px #000000,
+     1px -1px 2px #000000,
+    -1px  1px 2px #000000,
+     1px  1px 2px #000000;
+    }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.reveal {
+    text-shadow:
+    -1px -1px 4px #000000,
+     1px -1px 4px #000000,
+    -1px  1px 4px #000000,
+     1px  1px 4px #000000;
+    }}
 
 html.blur .backgrounds{
     -webkit-filter: blur(14px);
@@ -46,12 +59,29 @@ li {
 li:before {
     margin-left: -20px;
     content: '\2022';       /*'+';*/
+}
+
+@supports (-webkit-appearance:none) {li:before {
+    text-shadow:
+    -1px -1px 2px #000000,
+     1px -1px 2px #000000,
+    -1px  1px 2px #000000,
+     1px  1px 2px #000000;
+    }}
+_:-moz-tree-row(hover), li:before {
+    text-shadow:
+    -1px -1px 2px #000000,
+     1px -1px 2px #000000,
+    -1px  1px 2px #000000,
+     1px  1px 2px #000000;
+    }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {li:before {
     text-shadow:
     -1px -1px 4px #000000,
      1px -1px 4px #000000,
     -1px  1px 4px #000000,
      1px  1px 4px #000000;
-}
+    }}
 
 .frame {
     text-align: center;
