@@ -13,7 +13,7 @@
    height="2418"
    id="svg11226"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="synchronisation_coupling_and_compliance.svg"
    inkscape:export-filename="/home/christian/Dropbox/dissertation/presentations-and-posters/images/synchronisation_coupling_and_compliance.png"
    inkscape:export-xdpi="300"
@@ -52,15 +52,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1056"
+     inkscape:window-width="1890"
+     inkscape:window-height="1051"
      id="namedview12225"
      showgrid="false"
      inkscape:zoom="0.29280398"
-     inkscape:cx="2338.0115"
-     inkscape:cy="387.53179"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:cx="1716.4352"
+     inkscape:cy="1343.8029"
+     inkscape:window-x="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg11226"
      fit-margin-top="0"
@@ -36448,12 +36448,13 @@
      height="1209"
      width="1614.0229" />
   <image
-     y="-2100.2432"
-     x="-665.71222"
-     id="image14658"
-     xlink:href="file:///home/christian/Dropbox/dissertation/presentations-and-posters/images/waveform_compliance_and_coupling.png"
+     sodipodi:absref="/home/christian/Dropbox/dissertation/presentation/images/waveform_compliance_and_coupling.png"
+     xlink:href="waveform_compliance_and_coupling.png"
+     width="2358.3828"
      height="1209"
-     width="2358.3828" />
+     id="image14658"
+     x="-665.71222"
+     y="-2100.2432" />
   <g
      id="g11327-0-5"
      style="font-size:12px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Dialog"
@@ -39301,11 +39302,12 @@
      height="1209"
      width="1614.0229" />
   <image
-     style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Dialog"
-     y="0"
-     x="1.9238281e-05"
-     id="image14658-3"
-     xlink:href="file:///home/christian/Dropbox/dissertation/presentations-and-posters/images/waveform_compliance_and_coupling.png"
+     sodipodi:absref="/home/christian/Dropbox/dissertation/presentation/images/waveform_compliance_and_coupling.png"
+     xlink:href="waveform_compliance_and_coupling.png"
+     width="2358.3828"
      height="1209"
-     width="2358.3828" />
+     id="image14658-3"
+     x="1.9238281e-05"
+     y="0"
+     style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
 </svg>

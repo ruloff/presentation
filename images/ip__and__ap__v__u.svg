@@ -13,7 +13,7 @@
    height="1209"
    id="svg11226"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="ip__and__ap__v__u.svg">
   <g
      id="g8969-9"
@@ -49,15 +49,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1056"
+     inkscape:window-width="1890"
+     inkscape:window-height="1051"
      id="namedview12225"
      showgrid="false"
      inkscape:zoom="0.10352184"
-     inkscape:cx="475.5049"
+     inkscape:cx="-1282.5782"
      inkscape:cy="-1804.8774"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-x="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg11226"
      fit-margin-top="0"
@@ -36437,10 +36437,11 @@
      height="1209"
      width="1614.0229" />
   <image
-     y="0"
-     x="0"
-     id="image14658"
-     xlink:href="file:///home/christian/Dropbox/dissertation/presentations-and-posters/images/waveform_compliance_and_coupling.png"
+     sodipodi:absref="/home/christian/Dropbox/dissertation/presentation/images/waveform_compliance_and_coupling.png"
+     xlink:href="waveform_compliance_and_coupling.png"
+     width="2358.3828"
      height="1209"
-     width="2358.3828" />
+     id="image14658"
+     x="0"
+     y="0" />
 </svg>
