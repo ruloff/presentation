@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.92.3 (unknown)"
    sodipodi:docname="TALK_track_flagella_stalling_invertiert.svg"
-   inkscape:export-filename="/home/christian/Dropbox/dissertation/presentation/images-phd/svg/TALK_track_flagella_stalling_invertiert.png"
+   inkscape:export-filename="/home/christian/Dropbox/dissertation/presentation/images-phd/TALK_track_flagella_stalling_invertiert.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <rect
@@ -50,9 +50,9 @@
      inkscape:window-height="1051"
      id="namedview4481"
      showgrid="false"
-     inkscape:zoom="0.18379441"
-     inkscape:cx="1061.9896"
-     inkscape:cy="-86.493228"
+     inkscape:zoom="0.42542338"
+     inkscape:cx="1579.6747"
+     inkscape:cy="214.83002"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -4421,12 +4421,6 @@
      sodipodi:start="4.7126416"
      sodipodi:end="4.9970727"
      sodipodi:open="true" />
-  <path
-     sodipodi:nodetypes="cc"
-     inkscape:connector-curvature="0"
-     id="path11966-0-9-0-5"
-     d="M 2563.8238,84.999727 V 1139.9997"
-     style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;fill:none;fill-opacity:1;stroke:#000000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.25;stroke-dasharray:48.00000005, 48.00000005;stroke-dashoffset:78;stroke-opacity:1" />
   <g
      style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="g164488-0-4-0"
@@ -4663,4 +4657,10 @@
      height="20"
      x="167"
      y="1099.9999" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path11966-0-9-3-7-3"
+     d="M 2563.7717,1155.9997 V 18.999705"
+     style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;fill:none;fill-opacity:1;stroke:#000000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.25;stroke-dasharray:48.00000005, 48.00000005;stroke-dashoffset:78;stroke-opacity:1" />
 </svg>

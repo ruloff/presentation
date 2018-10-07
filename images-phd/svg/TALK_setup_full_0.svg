@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.92.3 (unknown)"
    sodipodi:docname="TALK_setup_full_0.svg"
-   inkscape:export-filename="/home/christian/Dropbox/dissertation/presentation/images-phd/svg/TALK_setup_full_0.png"
+   inkscape:export-filename="/home/christian/Dropbox/dissertation/presentation/images-phd/TALK_setup_full_0.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <sodipodi:namedview
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24916122"
-     inkscape:cx="1440.6087"
-     inkscape:cy="923.87749"
+     inkscape:zoom="0.20390342"
+     inkscape:cx="857.49703"
+     inkscape:cy="282.54962"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -9535,7 +9535,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -9547,13 +9547,13 @@
     <image
        sodipodi:absref="/home/christian/Dropbox/dissertation/presentation/images-phd/svg/../../../dissertation/images/setup/DSC_3793.jpg"
        xlink:href="../../../dissertation/images/setup/DSC_3793.jpg"
-       y="65840.656"
-       x="7798.4321"
-       id="image3202-6-0"
-       height="2137.7898"
-       width="3206.6848"
+       clip-path="url(#clipPath7493-7)"
        transform="rotate(90.912838,-2702.1361,-5442.6733)"
-       clip-path="url(#clipPath7493-7)" />
+       width="3206.6848"
+       height="2137.7898"
+       id="image3202-6-0"
+       x="7798.4321"
+       y="65840.656" />
     <path
        style="fill:#ffffff;fill-opacity:0.36078431;stroke:#ffffff;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -75596.141,5268.7169 h 626.603 V 5651.32 h -626.603 z"
