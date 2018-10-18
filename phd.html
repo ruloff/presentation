@@ -132,30 +132,6 @@
                     </section>
                     <section>
                         <div align="center">
-                            <div align="left" style="font-size:100%; font-weight:bold;">Breastroke-like beating pattern of <span style="font-style:italic">Chlamydomonas reinhardtii</span><br><span style="font-size:62.5%">is divided into power- and recovery-stroke<span></div>
-                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
-                                <tr>
-                                    <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;" colspan="2">
-                                        <img src="images-phd/TALK_power_and_recovery_stroke.png" style="display:block; border:none; margin:0px; padding:0px; background-color:transparent; -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -ms-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -o-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); width:100%;">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="center" width="60%" style="vertical-align:bottom; border:none; padding:0px 10px;">
-                                        <video width="100%" autobuffer data-autoplay controls loop class="video-centre shadow">
-                                            <source src="videos-phd/swimming-in-small-channel_20xNA0.4_20150820_044128_PM_20150820_044213_PM_1.mp4" type="video/webm">
-                                        </video>
-                                    </td>
-                                    <td align="center" width="40%" style="vertical-align:bottom; border:none; padding:0px 10px;">
-                                        <video width="100%" autobuffer data-autoplay controls loop class="video-centre shadow">
-                                            <source src="videos-phd/20150602_082003_video.webm" type="video/webm">
-                                        </video>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </section>
-                    <section>
-                        <div align="center">
                             <div align="center" style="font-size:100%; font-weight:bold;">Swimming in the viscous regime is a tough job</div>
                             <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
                                 <tr>
@@ -180,23 +156,69 @@
                     </section>
                     <section>
                         <div align="center">
-                            <div align="center" style="font-size:100%; font-weight:bold;">Langevin dynamics</div>
+                            <div align="center" style="font-size:100%; font-weight:bold;">Stokes equations for homogeneous, incompressible fluids</div>
+                            <table style="width:90%; border:none; border-spacing:0px; padding:10px; margin-top:40px; text-align:center;"">
+                                <tr>
+                                    <td width="100%" style="vertical-align:top; border:none; padding:20px 10px; font-size:75%;">
+                                        <div style="padding-top:30px; font-weight:bold;">Navier-Stokes equations</div>
+                                        <div style="padding-top:30px;">$\rho\partial_t u + \rho\left(u\cdot\nabla\right)\cdot u = f_{\textrm{external}} - \nabla p + \mu\Delta u$</div>
+                                        <span class="fragment fade-out" data-fragment-index="2">
+                                            <span class="fragment fade-in" data-fragment-index="1" style="position:absolute; top:216px; left:214px; "><span style="margin:0px; padding:10px 0px 10px 270px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px">$f_{inertia}$<!--=\rho\cdot\dot{u}--></div></span>
+                                        </span>
+                                        <span class="fragment fade-out" data-fragment-index="3">
+                                            <span class="fragment fade-in" data-fragment-index="2" style="position:absolute; top:216px; left:616px"><span style="margin:0px; padding:10px 0px 10px 186px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px">$f_{stress}$</div></span>
+                                        </span>
+                                        <span class="fragment fade-out" data-fragment-index="4">
+                                            <span class="fragment fade-in" data-fragment-index="3" style="position:absolute; top:216px; left:214px"><span style="margin:0px; padding:10px 0px 10px 80px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">variation</div></span>
+                                        </span>
+                                        <span class="fragment fade-out" data-fragment-index="5">
+                                            <span class="fragment fade-in" data-fragment-index="4" style="position:absolute; top:216px; left:320px"><span style="margin:0px; padding:10px 0px 10px 160px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">convection</div></span>
+                                        </span>
+                                        <span class="fragment fade-out" data-fragment-index="6">
+                                            <span class="fragment fade-in" data-fragment-index="5" style="position:absolute; top:216px; left:502px"><span style="margin:0px; padding:10px 0px 10px 104px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">external source</div></span>
+                                        </span>
+                                        <span class="fragment fade-out" data-fragment-index="7">
+                                            <span class="fragment fade-in" data-fragment-index="6" style="position:absolute; top:216px; left:600px"><span style="margin:0px; padding:10px 10px 10px 70px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">internal source</div></span>
+                                        </span>
+                                        <span class="fragment fade-out" data-fragment-index="8">
+                                            <span class="fragment fade-in" data-fragment-index="7" style="position:absolute; top:216px; left:698px"><span style="margin:0px; padding:10px 0px 10px 100px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">diffusion</div></span>
+                                        </span>
+                                        <span style="position:relative; top:50px">
+                                            <div>and</div>
+                                            <div style="padding-top:60px;">$\nabla u = 0$</div>
+                                            <div style="padding-top:60px;" class="fragment fade-in" data-fragment-index="8">low Reynolds number regime $\left(\mathcal{R}e = \frac{\rho l u}{\mu} < 2000\right)\Rightarrow$&nbsp;inertia negligible<!--:&nbsp;&nbsp;$\dot{u} = 0$--></div>
+                                        </span>
+                                        <span class="fragment fade-in" data-fragment-index="10" style="position:absolute; top:154px; left:368px"><hr style="width:  80px; transform: rotate(-0deg); border: 2px solid #ffffff"></span>
+                                        <span class="fragment fade-in" data-fragment-index="10" style="position:absolute; top:214px; left:220px"><hr style="width: 290px; transform: rotate(-0deg); border: 2px solid #ffffff"></span>
+                                        <span class="fragment fade-in" data-fragment-index="10" style="position:absolute; top:211px; left:810px">$ = 0$</span>
+                                        <div class="fragment fade-in" data-fragment-index="10" align="left" style="font-size:75%; margin:0px; position:relative; top:70px;">
+                                            <li style="padding:8px 12px;">&nbsp;&nbsp;<span style="font-weight:bold">linear:</span> superposition of fundamental solutions&nbsp;&nbsp;$u_i = G_{ij}F_j$&nbsp;&nbsp;(Stokeslet)<br>with the point force&nbsp;&nbsp;$F_j\delta\left(r\right)$&nbsp;&nbsp;acting on the fluid and the Oseen tensor&nbsp;&nbsp;$G_{ij} = \frac{1}{8\pi\mu}\left(\frac{1}{\left|r\right|} + \frac{r_i\cdot r_j}{\left|r\right|^3}\right)$</li>
+                                            <li style="padding:8px 12px;">&nbsp;&nbsp;<span style="font-weight:bold">time reversibility:</span> sequence of shapes as a function of time dictates swimming path, not the rate of shape changes (Scallop theorem) and leads to net dispacement at&nbsp;&nbsp;$\bar{u} = A^2\omega_0 / l$</li>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section>
+                        <div align="center">
+                            <div align="left" style="font-size:100%; font-weight:bold;">Breastroke-like beating pattern of <span style="font-style:italic">Chlamydomonas reinhardtii</span><br><span style="font-size:62.5%">is divided into power- and recovery-stroke<span></div>
                             <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
                                 <tr>
-                                    <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
-                                        <div align="center" style="font-size:75%; padding:0px; margin:0px; padding-bottom:20px">
-                                            <span style="margin:0px; padding:16px 16px 18px 16px; border:2px solid #ffffff; background-color:transparent">$m\ddot{x} = F_{rand} + F_{friction}$</span>
-                                        </div>
-                                        <div align="left" style="font-size:75%; padding:40px; margin:0px;">
-                                            <li style="padding:8px 12px;">&nbsp;$\langle x\cdot F_{rand}\rangle = \langle x\rangle\langle F_{rand}\rangle = 0$</li>
-                                            <li style="padding:8px 12px;">&nbsp;$\frac{1}{2}m\langle\dot{x}\rangle^2 = \frac{1}{2}k_bT$</li>
-                                        </div>
-                                        <div align="center" style="font-size:75%; padding:0px; margin:0px; padding-bottom:20px">
-                                            <span style="margin:0px; padding:16px 16px 18px 16px; border:2px solid #ffffff; background-color:transparent">$\langle x^2\rangle\left(t\right) = 2\cdot\frac{k_bT}{6\pi\eta r} = 2\cdot Dt$</span>
-                                        </div>
-                                        <div align="center" style="font-size:75%; padding:40px; margin:0px;">
-                                            Example:<br><br>$m\frac{\textrm{d}u}{\textrm{d}t} = -6\pi\eta r u\quad\Leftrightarrow m\int\limits_{u_0}^{u\left(t\right)}\frac{1}{u'}\textrm{d}u' = -6\pi\eta r\int\limits_{0}^{t}\textrm{d}t'$<br><br>$\Leftrightarrow\dots\Leftrightarrow u\left(t\right) = u_0\cdot\textrm{exp}\left(-6\pi\eta r t / m\right)$</li>
-                                        </div>
+                                    <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;" colspan="2">
+                                        <img src="images-phd/TALK_power_and_recovery_stroke.png" style="display:block; border:none; margin:0px; padding:0px; background-color:transparent; -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -ms-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -o-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); width:100%;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" width="60%" style="vertical-align:bottom; border:none; padding:0px 10px;">
+                                        <video width="100%" autobuffer data-autoplay controls loop class="video-centre shadow">
+                                            <source src="videos-phd/swimming-in-small-channel_20xNA0.4_20150820_044128_PM_20150820_044213_PM_1.mp4" type="video/webm">
+                                        </video>
+                                    </td>
+                                    <td align="center" width="40%" style="vertical-align:bottom; border:none; padding:0px 10px;">
+                                        <video width="100%" autobuffer data-autoplay controls loop class="video-centre shadow">
+                                            <source src="videos-phd/20150602_082003_video.webm" type="video/webm">
+                                        </video>
                                     </td>
                                 </tr>
                             </table>
@@ -227,16 +249,39 @@
                             </table>
                         </div>
                     </section>
+                    <section>
+                        <div align="center">
+                            <div align="center" style="font-size:100%; font-weight:bold;">Langevin dynamics</div>
+                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
+                                <tr>
+                                    <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
+                                        <div align="center" style="font-size:75%; padding:0px; margin:0px; padding-bottom:20px">
+                                            <span style="margin:0px; padding:16px 16px 18px 16px; border:2px solid #ffffff; background-color:transparent">$m\ddot{x} = F_{rand} + F_{friction}$</span>
+                                        </div>
+                                        <div align="center" style="font-size:75%; padding:40px; margin:0px; padding-bottom:60px">
+                                            with$\quad\langle x\cdot F_{rand}\rangle = \langle x\rangle\langle F_{rand}\rangle = 0\quad$and$\quad\frac{1}{2}m\langle\dot{x}\rangle^2 = \frac{1}{2}k_bT$
+                                        </div>
+                                        <div align="center" style="font-size:75%; padding:0px; margin:0px; padding-bottom:20px">
+                                            <span style="margin:0px; padding:16px 16px 18px 16px; border:2px solid #ffffff; background-color:transparent">$\langle x^2\rangle\left(t\right) = 2\cdot\frac{k_bT}{6\pi\mu r}t = 2\cdot Dt$</span>
+                                        </div>
+                                        <div align="center" style="font-size:75%; padding:40px; margin:0px;">
+                                            Example:<br><br>$m\frac{\textrm{d}u}{\textrm{d}t} = -6\pi\mu r u\quad\Leftrightarrow m\int\limits_{u_0}^{u\left(t\right)}\frac{1}{u'}\textrm{d}u' = -6\pi\mu r\int\limits_{0}^{t}\textrm{d}t'$<br><br>$\Leftrightarrow\dots\Leftrightarrow u\left(t\right) = u_0\cdot\textrm{exp}\left(-6\pi\mu r t / m\right)$</li>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
                 </section>
 
                 <section>
                     <section>
                         <div align="center">
                             <div align="left" style="font-size:100%; font-weight:bold;">Micropipettes<br><span style="font-size:62.5%">provide strong fixation and reliable orientation</span></div>
-                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
+                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:10px">
                                 <tr>
                                     <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
-                                        <img src="images-phd/TALK_setup_single.png" style="display:block; border:none; margin:0px; padding:0px; background-color:transparent; -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -ms-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -o-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); width:100%;">
+                                        <img src="images-phd/TALK_setup_single.png" style="display:block; border:none; margin:0px; padding:0px; background-color:transparent; -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -ms-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -o-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); width:87.5%;">
                                         <div align="right" style="font-size:100%; font-weight:bold; margin-top:20px">and microfluidics<br><span style="font-size:62.5%">enable precise flow control</span></div>
                                     </td>
                                 </tr>
@@ -255,6 +300,18 @@
                                         <img src="images-phd/TALK_setup_full_1.png" style="background-color:#ffffff; display:block; width:100%; border: 0px; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0);">
                                         <div style="padding-top:74px">&nbsp;</div>
                                         <img src="images-phd/TALK_setup_full_2.png" style="background-color:#ffffff; display:block; width:100%; border: 0px; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0);">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section>
+                        <div align="center">
+                            <div align="center" style="font-size:100%; font-weight:bold;">Experimental setup</div>
+                            <table style="width:62.5%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
+                                <tr>
+                                    <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
+                                        <img src="images-phd/setup.png" style="background-color:#ffffff; display:block; width:100%; border: 4px white solid; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0);">
                                     </td>
                                 </tr>
                             </table>
@@ -432,48 +489,6 @@
                     </section>
                     <section>
                         <div align="center">
-                            <div align="center" style="font-size:100%; font-weight:bold;">Stokes equations for homogeneous, incompressible fluids</div>
-                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px; text-align:center;"">
-                                <tr>
-                                    <td width="100%" style="vertical-align:top; border:none; padding:20px 10px; font-size:75%;">
-                                        <div style="padding-top:30px; font-weight:bold;">Navier-Stokes equations</div>
-                                        <div style="padding-top:30px;">$\rho\partial_t u + \rho\left(u\cdot\nabla\right)\cdot u = f_{\textrm{external}} - \nabla p + \mu\Delta u$</div>
-                                        <span class="fragment fade-out" data-fragment-index="2">
-                                            <span class="fragment fade-in" data-fragment-index="1" style="position:absolute; top:216px; left:214px; "><span style="margin:0px; padding:10px 0px 10px 270px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px">$f_{inertia}$<!--=\rho\cdot\dot{u}--></div></span>
-                                        </span>
-                                        <span class="fragment fade-out" data-fragment-index="3">
-                                            <span class="fragment fade-in" data-fragment-index="2" style="position:absolute; top:216px; left:616px"><span style="margin:0px; padding:10px 0px 10px 186px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px">$f_{stress}$</div></span>
-                                        </span>
-                                        <span class="fragment fade-out" data-fragment-index="4">
-                                            <span class="fragment fade-in" data-fragment-index="3" style="position:absolute; top:216px; left:214px"><span style="margin:0px; padding:10px 0px 10px 80px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">variation</div></span>
-                                        </span>
-                                        <span class="fragment fade-out" data-fragment-index="5">
-                                            <span class="fragment fade-in" data-fragment-index="4" style="position:absolute; top:216px; left:320px"><span style="margin:0px; padding:10px 0px 10px 160px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">convection</div></span>
-                                        </span>
-                                        <span class="fragment fade-out" data-fragment-index="6">
-                                            <span class="fragment fade-in" data-fragment-index="5" style="position:absolute; top:216px; left:502px"><span style="margin:0px; padding:10px 0px 10px 104px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">external source</div></span>
-                                        </span>
-                                        <span class="fragment fade-out" data-fragment-index="7">
-                                            <span class="fragment fade-in" data-fragment-index="6" style="position:absolute; top:216px; left:600px"><span style="margin:0px; padding:10px 10px 10px 70px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">internal source</div></span>
-                                        </span>
-                                        <span class="fragment fade-out" data-fragment-index="8">
-                                            <span class="fragment fade-in" data-fragment-index="7" style="position:absolute; top:216px; left:698px"><span style="margin:0px; padding:10px 0px 10px 100px; border:2px solid #ffffff; background-color:transparent"></span><div style="padding-top:20px;font-size:75%">diffusion</div></span>
-                                        </span>
-                                        <span style="position:relative; top:50px">
-                                            <div>and</div>
-                                            <div style="padding-top:60px;">$\nabla u = 0$</div>
-                                            <div style="padding-top:60px;" class="fragment fade-in" data-fragment-index="8">low Reynolds number regime $\left(\mathcal{R}e < 2000\right)\Rightarrow$&nbsp;inertia negligible<!--:&nbsp;&nbsp;$\dot{u} = 0$--></div>
-                                        </span>
-                                        <span class="fragment fade-in" data-fragment-index="10" style="position:absolute; top:154px; left:368px"><hr style="width:  80px; transform: rotate(-0deg); border: 2px solid #ffffff"></span>
-                                        <span class="fragment fade-in" data-fragment-index="10" style="position:absolute; top:214px; left:220px"><hr style="width: 290px; transform: rotate(-0deg); border: 2px solid #ffffff"></span>
-                                        <span class="fragment fade-in" data-fragment-index="10" style="position:absolute; top:211px; left:810px">$ = 0$</span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </section>
-                    <section>
-                        <div align="center">
                             <div align="center" style="font-size:100%; font-weight:bold;">How to fabricate a microfluidics chip?</div>
                             <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
                                 <tr>
@@ -595,7 +610,7 @@
                                         <img src="images-phd/TALK_flagellar_length_statistics_relative.png" style="background-color:#ffffff; display:block; width:100%; border: 4px white solid; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0);">
                                         <div align="left" style="font-size:62.5%; padding:10px; margin:0px;">
                                             <li style="padding:10px 12px;"> In $\geq$80% of all frames, $\geq$80% of the flagellar length is tracked successfully</li>
-                                            <li style="padding:10px 12px;"> For $u=$0 mm/s, both flagella show in-phase beating at $\approx$50 Hz in $\geq$80% of the time</li>
+                                            <li style="padding:10px 12px;"> For $u = 0\ \textrm{mm/s}$, both flagella show in-phase beating at $\approx$50 Hz in $\geq$80% of the time</li>
                                         </div>
                                         <div align="center" style="font-size:62.5%; padding:30px; margin:0px;">
                                             <span style="margin:0px; padding:16px 16px 18px 16px; border:2px solid #ffffff; background-color:transparent">n = 6 flagella</span>
@@ -741,6 +756,61 @@
                 <section>
                     <section>
                         <div align="center">
+                            <div align="left" style="font-size:100%; font-weight:bold;">The flagellar load response<br><span style="font-size:62.5%">is highly phase-dependent</span></div>
+                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:46px">
+                                <tr>
+                                    <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
+                                        <img src="images-phd/TALK_chi__v__phi.png" style="background-color:#ffffff; display:block; width:100%; border: 4px white solid; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0);">
+                                        <div align="left" style="font-size:62.5%; padding:10px; margin:0px;">
+                                            <li style="padding:8px 12px; padding-top:10px;"> during the recovery stroke, the flagella are closer to the cell body</li>
+                                            <li style="padding:8px 12px;"> the recovery stroke slows down</li>
+                                            <li style="padding:8px 12px;"> the power stroke speeds up</li>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section>
+                        <div align="center">
+                            <div align="center" style="font-size:100%; font-weight:bold;">Comparison of flagellar efficiencies</div>
+                            <table style="width:100%; border:none; border-spacing:10px; padding:10px; margin-top:40px; border-collapse:collapse; font-size:62.5%">
+                                <tr style="border-top-width:2px; border-top-style:solid; border-bottom-width:1px; border-bottom-style:solid;font-weight:bold;">
+                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">efficiency</td>
+                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">beating frequency</td>
+                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;">cell type</td>
+                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">reference</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">0.1</td>
+                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">40</td>
+                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;"><span style="font-style:italic">Paramecium caudatum</span></td>
+                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">[61]</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">0.15 - 0.35</td>
+                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">8</td>
+                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;">mammalian sperm (rat, mouse)</td>
+                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">[25]</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">0.21</td>
+                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">50</td>
+                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;"><span style="font-style:italic">C. reinhardtii</span> (SAG 11-32c mt-)</td>
+                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">[64]</td>
+                                </tr>
+                                <tr style="border-bottom-width:2px; border-bottom-style:solid;">
+                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">0.4</td>
+                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">30</td>
+                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;"><span style="font-style:italic">Tetrahymena pyriformis</span></td>
+                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">[11]</td>
+                                </tr>
+                            </table>
+                            <span class="fragment fade-in" data-fragment-index="6" style="position:relative; top:-80px; margin:0px; padding:0px 508px 0px 508px; border:2px solid #ffffff; background-color:transparent"></span>
+                        </div>
+                    </section>
+                    <section>
+                        <div align="center">
                             <div align="left" style="font-size:100%; font-weight:bold;">A generic theory of flagellar oscillations<br><span style="font-size:62.5%">is calibrated by means of experiments</span></div>
                             <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:10px">
                                 <tr>
@@ -749,7 +819,7 @@
                                         <div align="left" style="font-size:62.5%; padding:0px; margin:0px;">
                                             <li style="padding:8px 12px; margin-top:-390px;"> Generalised coordinates: $\quad q = \left[\varphi, A, y\right]'\quad\quad$ <!--[in general: $q = \left[\varphi_L, A_L, \varphi_R, A_R, x, y, \alpha\right]'$]--></li>
                                             <li style="padding:8px 12px;"> Balance of active flagellar driving forces $Q\left(q\right)$ and<br>friction forces $P\left(q\right) = \left[\Gamma^{(h)} + \Gamma^{(i)}\right]\cdot\dot{q}$</li>
-                                            <li style="padding:8px 12px; margin-top:100px"> Ansatz: $\quad\eta = \mathcal{R}^{\left(h\right)} / \mathcal{R}_{total}$<br><br>$\dots\Leftrightarrow\Gamma^{\left(i\right)}_{kl} = \left(\frac{1}{\eta} - 1\right)\Gamma^{\left(h\right)}_{kl}\quad$and<br><span style="padding-left:70px">$\Gamma^{\left(i\right)}_{ky} = \Gamma^{\left(i\right)}_{yk} = \Gamma^{\left(i\right)}_{yy} = 0\quad$with$\quad k,l\in\{\varphi, A\}$</span></li>
+                                            <li style="padding:8px 12px; margin-top:100px"> Ansatz: $\quad\mathcal{R}^{\left(i\right)} = \left(1 - \eta\right)\mathcal{R}_{total}$<br><br>$\dots\Leftrightarrow\Gamma^{\left(i\right)}_{kl} = \left(\frac{1}{\eta} - 1\right)\Gamma^{\left(h\right)}_{kl}\quad$and<br><span style="padding-left:70px">$\Gamma^{\left(i\right)}_{ky} = \Gamma^{\left(i\right)}_{yk} = \Gamma^{\left(i\right)}_{yy} = 0\quad$with$\quad k,l\in\{\varphi, A\}$</span></li>
                                             <li style="padding:8px 12px;"> Zero flow $\left(\dot{y} = u = 0\right)$:$\quad q = \left[\varphi_0, A_0, 0\right]'\quad\Rightarrow\quad\dot{q}_0 = \left[\dot{\varphi}_0, 0, 0\right]'$</li>
                                             <li style="padding:8px 12px;"> Amplitude spring $\kappa_A$ stabilises limit cycle:$\quad Q_{A}\left(\varphi, A\right) = Q_{A}\left(\varphi, A_0\right) - \kappa_A\Delta A$</li>
                                         </div>
@@ -784,7 +854,7 @@
                                         </div>
                                         <div align="left" style="font-size:62.5%; padding:0px; margin:0px;">
                                             <li style="padding:12px 12px;">&nbsp;$\mathcal{R}^{\left(i\right)} + \mathcal{R}^{\left(h\right)} = \mathcal{R}_{total} = P\cdot\dot{q} = \left(\Gamma\cdot\dot{q}\right)\cdot\dot{q}\quad$&nbsp;&nbsp;&nbsp;(since&nbsp;&nbsp;&nbsp;$P_i = \partial_i\mathcal{R}$&nbsp;&nbsp;&nbsp;with&nbsp;&nbsp;&nbsp;$i\in\{\varphi, A, y\}$)<br>$\Rightarrow P = P^{\left(i\right)} + P^{\left(h\right)} = \Gamma^{\left(i\right)}\dot{q} + \Gamma^{\left(h\right)}\dot{q}$</li>
-                                            <li style="padding:12px 12px;">&nbsp;Ansatz:$\quad\eta = \mathcal{R}^{\left(h\right)} / \mathcal{R}_{total} = \mathcal{R}^{\left(h\right)} / \left(\mathcal{R}^{\left(i\right)} + \mathcal{R}^{\left(h\right)}\right)$<br>$\Rightarrow\Gamma^{\left(i\right)}_{kl} = \left(\frac{1}{\eta} - 1\right)\Gamma^{\left(h\right)}_{kl}\quad$&nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;$\quad\Gamma^{\left(i\right)}_{ky} = \Gamma^{\left(i\right)}_{yk} = \Gamma^{\left(i\right)}_{yy} = 0\quad$&nbsp;&nbsp;&nbsp;with&nbsp;&nbsp;&nbsp;$\quad k,l\in\{\varphi, A\}$</li>
+                                            <li style="padding:12px 12px;">&nbsp;Ansatz: $\quad\mathcal{R}^{\left(i\right)} = \left(1 - \eta\right)\mathcal{R}_{total}\Leftrightarrow\mathcal{R}^{\left(i\right)} = \left(\frac{1}{\eta} - 1\right)\mathcal{R}^{\left(h\right)}$<br>$\Rightarrow\Gamma^{\left(i\right)}_{kl} = \left(\frac{1}{\eta} - 1\right)\Gamma^{\left(h\right)}_{kl}\quad$&nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;$\quad\Gamma^{\left(i\right)}_{ky} = \Gamma^{\left(i\right)}_{yk} = \Gamma^{\left(i\right)}_{yy} = 0\quad$&nbsp;&nbsp;&nbsp;with&nbsp;&nbsp;&nbsp;$\quad k,l\in\{\varphi, A\}$</li>
                                             <li style="padding:12px 12px;">&nbsp;$\Gamma = \Gamma^{\left(i\right)} + \Gamma^{\left(h\right)}\Leftrightarrow\left[\begin{array}{lll}
                                                     \Gamma_{\varphi\varphi} & \Gamma_{\varphi A} & \Gamma_{\varphi y} \\
                                                     \Gamma_{A\varphi}       & \Gamma_{AA}        & \Gamma_{Ay} \\
@@ -876,21 +946,13 @@
                             </table>
                         </div>
                     </section>
-                </section>
-
-                <section>
                     <section>
                         <div align="center">
-                            <div align="left" style="font-size:100%; font-weight:bold;">The flagellar load response<br><span style="font-size:62.5%">is highly phase-dependent</span></div>
-                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:46px">
+                            <div align="left" style="font-size:100%; font-weight:bold;">Hydrodynamic friction forces acting on the flagellum<br><span style="font-size:62.5%">are computed by means of numerically solving the Stokes equation for viscous flow</span></div>
+                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
                                 <tr>
                                     <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
-                                        <img src="images-phd/TALK_chi__v__phi.png" style="background-color:#ffffff; display:block; width:100%; border: 4px white solid; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0);">
-                                        <div align="left" style="font-size:62.5%; padding:10px; margin:0px;">
-                                            <li style="padding:8px 12px; padding-top:10px;"> during the recovery stroke, the flagella are closer to the cell body</li>
-                                            <li style="padding:8px 12px;"> the recovery stroke slows down</li>
-                                            <li style="padding:8px 12px;"> the power stroke speeds up</li>
-                                        </div>
+                                        <img src="images-phd/friction.png" style="background-color:#ffffff; display:block; border: 4px white solid; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0); width:62.5%;">
                                     </td>
                                 </tr>
                             </table>
@@ -898,40 +960,18 @@
                     </section>
                     <section>
                         <div align="center">
-                            <div align="center" style="font-size:100%; font-weight:bold;">Comparison of flagellar efficiencies</div>
-                            <table style="width:100%; border:none; border-spacing:10px; padding:10px; margin-top:40px; border-collapse:collapse; font-size:62.5%">
-                                <tr style="border-top-width:2px; border-top-style:solid; border-bottom-width:1px; border-bottom-style:solid;font-weight:bold;">
-                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">efficiency</td>
-                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">beating frequency</td>
-                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;">cell type</td>
-                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">reference</td>
-                                </tr>
+                            <div align="left" style="font-size:100%; font-weight:bold;">Phase-locking of the flagellar beat to external oscillatory flow<br><span style="font-size:62.5%">agrees with determined flagellar efficiency</span></div>
+                            <table style="width:82.5%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
                                 <tr>
-                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">0.1</td>
-                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">40</td>
-                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;"><span style="font-style:italic">Paramecium caudatum</span></td>
-                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">[61]</td>
-                                </tr>
-                                <tr>
-                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">0.15 - 0.35</td>
-                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">8</td>
-                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;">mammalian sperm (rat, mouse)</td>
-                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">[25]</td>
-                                </tr>
-                                <tr>
-                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">0.21</td>
-                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">50</td>
-                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;"><span style="font-style:italic">C. reinhardtii</span> (SAG 11-32c mt-)</td>
-                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">[64]</td>
-                                </tr>
-                                <tr style="border-bottom-width:2px; border-bottom-style:solid;">
-                                    <td align="left" width="20%" style="vertical-align:top; border:none; padding:10px 10px;">0.4</td>
-                                    <td align="left" width="30%" style="vertical-align:top; border:none; padding:10px 10px;">30</td>
-                                    <td align="left" width="40%" style="vertical-align:top; border:none; padding:10px 10px;"><span style="font-style:italic">Tetrahymena pyriformis</span></td>
-                                    <td align="right" width="10%" style="vertical-align:top; border:none; padding:10px 10px;">[11]</td>
+                                    <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
+                                        <img src="images-phd/arnold.png" style="display:block; border:none; margin:0px; padding:0px; padding-top:50px; padding-bottom:30px;background-color:transparent; -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -ms-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); -o-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); width:100%;">
+                                        <div align="left" style="font-size:62.5%; padding:0px; margin:0px;">
+                                            <li style="padding:12px 12px;">&nbsp;computed Arnold tongue (green) indicates phase locking regions as predicted by the generic model</li>
+                                            <li style="padding:12px 12px;">&nbsp;dashed lines are measured phase locking regions</li>
+                                        </div>
+                                    </td>
                                 </tr>
                             </table>
-                            <span class="fragment fade-in" data-fragment-index="6" style="position:relative; top:-80px; margin:0px; padding:0px 508px 0px 508px; border:2px solid #ffffff; background-color:transparent"></span>
                         </div>
                     </section>
                 </section>
@@ -1182,9 +1222,9 @@
                                     <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
                                         <img src="images-phd/TALK_cis_and_trans_to_and_from_stalling_all.png" style="background-color:#ffffff; display:block; width:100%; border: 4px white solid; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0);">
                                         <div align="left" style="font-size:62.5%; padding:10px; margin:0px;">
-                                            <li style="padding:8px 12px; padding-top:10px;"> difference between going to and coming from stalling</li>
-                                            <li style="padding:8px 12px;"> lower than predicted by theory for positive load</li>
-                                            <li style="padding:8px 12px;"> way lower than predicted by theory for negative load</li>
+                                            <li style="padding:8px 12px; padding-top:10px;"> difference between entering and leaving from stalling</li>
+                                            <li style="padding:8px 12px;"> lower than predicted by theory for positive load&nbsp;&nbsp;$\left(\approx 12\ \textrm{mm/s}\right)$</li>
+                                            <li style="padding:8px 12px;"> way lower than predicted by theory for negative load&nbsp;&nbsp;$\left(\approx -8\ \textrm{mm/s}\right)$</li>
                                         </div>
                                     </td>
                                 </tr>
@@ -1341,7 +1381,7 @@
                     <section>
                         <div align="center">
                             <div align="left" style="font-size:100%; font-weight:bold;"><span style="font-size:62.5%">In a system of two weakly coupled oscillators in the presence of noise,</span><br>phase dynamics obey the noisy Adler equation</div>
-                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:30px">
+                            <table style="width:100%; border:none; border-spacing:0px; padding:10px; margin-top:40px">
                                 <tr align="center">
                                     <td align="center" width="100%" style="vertical-align:top; border:none; padding:0px 10px;">
                                         <img src="images-phd/TALK_phasedifferences__v__time.png" style="background-color:#ffffff; display:block; width:100%; border: 4px white solid; margin:0px; padding:0px; box-shadow: 0px 0px 8px rgba(0,0,0,1.0);">
