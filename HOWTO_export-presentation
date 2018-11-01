@@ -1,0 +1,7 @@
+# https://github.com/astefanutti/decktape
+# 
+# convert mp4 > webm to get thumbnails
+
+npm install -g decktape
+
+decktape --screenshots --screenshots-directory=screenshots reveal https://ruloff.github.io/presentation/?fragments=true test.pdf 
