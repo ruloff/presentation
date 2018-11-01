@@ -5,4 +5,8 @@
 npm install -g decktape
 
 mkdir screenshots 
-decktape --screenshots --screenshots-directory=screenshots reveal https://ruloff.github.io/presentation/?fragments=true phd.pdf 
+decktape --screenshots --screenshots-directory=screenshots --screenshots-size=2560x1440 reveal https://ruloff.github.io/presentation/?fragments=true phd.pdf
+
+# rename _*_ to _0*_
+
+convert -quality 100 phd*.png slides-all.pdf
