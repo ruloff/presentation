@@ -4,4 +4,5 @@
 
 npm install -g decktape
 
-decktape --screenshots --screenshots-directory=screenshots reveal https://ruloff.github.io/presentation/?fragments=true test.pdf 
+mkdir screenshots 
+decktape --screenshots --screenshots-directory=screenshots reveal https://ruloff.github.io/presentation/?fragments=true phd.pdf 
